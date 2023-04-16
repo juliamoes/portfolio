@@ -24,15 +24,6 @@ h3 {
   opacity: 0.7;
 }
 
-p {
-  background: var(--secondary-color);
-  padding: 20px;
-  border-radius: 4px;
-  font-size: 18px;
-  line-height: 1.5;
-  text-align: center;
-}
-
 .navigation-links {
   display: flex;
   margin-top: 40px;
@@ -93,16 +84,28 @@ p {
   text-decoration: none;
   text-transform: capitalize;
 }
+.title {
+  text-align: center;
+}
 
 @media (max-width: 576px) {
   h1 {
     font-size: 60px;
   }
-  img {
-    display: none;
+  h3 {
+    font-size: 20px;
   }
+
   .app-link {
     display: block;
     margin: auto;
+  }
+  p {
+    text-align: center;
+  }
+  .app-link {
+    display: block;
+    text-align: center;
+    margin: 5px;
   }
 }
