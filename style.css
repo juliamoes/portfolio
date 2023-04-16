@@ -93,3 +93,16 @@ p {
   text-decoration: none;
   text-transform: capitalize;
 }
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 60px;
+  }
+  img {
+    display: none;
+  }
+  .app-link {
+    display: block;
+    margin: auto;
+  }
+}
